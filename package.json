@@ -1,0 +1,29 @@
+{
+  "name": "a02-functions-maddrings",
+  "version": "1.0.0",
+  "description": "creating an installable Node.js command line application package",
+  "main": "index.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a02-functions-maddrings.git"
+  },
+  "author": "maddrings",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a02-functions-maddrings/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a02-functions-maddrings#readme",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "moment-timezone": "^0.5.43",
+    "node-fetch": "^3.3.1"
+  },
+
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "type": "module"
+}
